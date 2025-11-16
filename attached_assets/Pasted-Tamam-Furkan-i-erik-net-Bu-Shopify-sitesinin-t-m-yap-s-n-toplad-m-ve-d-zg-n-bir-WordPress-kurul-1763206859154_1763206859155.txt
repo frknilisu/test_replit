@@ -1,0 +1,238 @@
+Tamam Furkan, içerik net: Bu Shopify sitesinin tüm yapısını topladım ve düzgün bir **WordPress kurulum promptu** haline getirdim. Lafı uzatmam, direkt veriyorum. Eksik varsa söylersin; düzenleriz.
+
+---
+
+# **1. SİTENİN DETAYLI ÖZETİ**
+
+Bu bölüm, WordPress kuracak AI’nin bütün siteyi anlaması için **kaynak bilgi**.
+Net, sistematik, tam döküm.
+
+---
+
+## **Genel Konsept**
+
+* Marka adı: **Codiac Labs**
+* Konu: **Drone programlama eğitimleri**, özellikle **CoDrone EDU** ile.
+* Hedef kitle: 10–18 yaş öğrenciler, okullar, eğitim kurumları, şirketler (team building).
+* Amaç: Stem/STEAM odaklı içerik; problem çözme, yaratıcılık, kodlama mantığı geliştirme.
+
+---
+
+## **Ana Hizmetler**
+
+### 1. **Workshops**
+
+* Kısa süreli drone programlama atölyeleri.
+* Blockly ve Python destekli.
+* Amaç: Katılımcılara hızlı giriş, temel teknikler ve mini görevler yaptırmak.
+
+### 2. **Courses**
+
+* Daha uzun süreli eğitim programları.
+* Temel seviye → ileri seviye drone programlama.
+* İçerik: sensör kullanımı, otomasyon, görevler, mini projeler.
+
+### 3. **Team-building Activities**
+
+* Şirketlere ve yetişkin gruplarına yönelik pratik drone aktiviteleri.
+* Problem çözme, yarışmalar ve takım çalışması görevleri.
+
+---
+
+## **Site Yapısı & Sayfalar**
+
+### **Header Menü**
+
+* **Activities**
+
+  * Workshops
+  * Courses
+  * Team Building
+* **About**
+
+  * Who is a Codiac?
+  * The Program
+  * About Us
+  * Contact
+
+### **Footer Menü**
+
+* Privacy Policy
+* Refund Policy
+* Terms of Service
+* Contact Information
+
+---
+
+## **İçerik Temaları**
+
+### **“Who is a Codiac?”**
+
+* Yaratıcı, problem çözebilen, teknolojiye meraklı birey.
+* Drone programlama ile bu yeteneklerin birleştiği konsept.
+
+### **The Program**
+
+* Eğitim metodu.
+* Yaş seviyeleri.
+* Drone + kodlama eğitim akışı.
+* Hedeflenen beceriler:
+
+  * Problem solving
+  * Creativity
+  * Communication
+  * Collaboration
+  * Coding logic
+
+### **About Us**
+
+* Eğitim merkezinin misyonu.
+* Drone + kodlama eğitimi üzerinden çocuklara geleceğin becerilerini kazandırmak.
+
+### **Contact**
+
+* Adres: Westvest 28, 3111 BW, Schiedam
+* Telefon: +31 687900083
+* E-posta: [info@codiaclabs.nl](mailto:info@codiaclabs.nl)
+
+---
+
+## **UI / UX Özellikleri**
+
+* Temiz, modern, genç odaklı tasarım.
+* Drone fotoğrafları ve teknoloji estetiği.
+* Çok dilli yapı:
+
+  * English
+  * Nederlands
+  * Türkçe
+
+---
+
+## **E-ticaret Detayları**
+
+* Shopify ödeme yöntemleri geniş (Amex, Apple Pay, Visa, Klarna vb.)
+* Kurs/atölye satın alma mantığına uygun yapı.
+
+---
+
+## **Genel Amaç**
+
+* Kullanıcıyı drone programlama dünyasına çekmek.
+* Workshop / kurs rezervasyonu yaptırmak.
+* Okullar ve şirketlerle bağlantı kurmak.
+* Drone programlama alanında profesyonel eğitim sağlayıcısı imajı.
+
+---
+
+# **2. WORDPRESS KURACAK AI İÇİN PROMPT**
+
+Aşağıdaki blok **doğrudan WordPress site kurulum AI’sına verilecek şekilde** yazılmıştır.
+Kopyala, yapıştır, çalışır.
+
+---
+
+## **WORDPRESS AI PROMPT (Hazır Kullan)**
+
+**PROMPT BAŞLIYOR**
+
+“Codiac Labs” adlı bir eğitim kurumu için modern, hızlı, çok dilli ve mobil uyumlu bir WordPress web sitesi oluştur.
+
+Aşağıdaki gerekliliklere göre çalış:
+
+### 1. Genel Konsept
+
+Site, öğrencilere ve kurumlara **drone programlama eğitimleri** sunan bir eğitim platformudur. Drone modeli: **CoDrone EDU**. Programlama dilleri: **Blockly ve Python**. Odak: STEM eğitimi, problem çözme, yaratıcılık, teknoloji.
+
+### 2. Tasarım
+
+* Modern, temiz, teknoloji temalı.
+* Drone görselleri, çocuk-genç odaklı eğitim vibe’ı.
+* Renk paleti: maviler, beyazlar, siyah teknoloji detayları.
+* Mobil uyumlu, hızlı.
+
+### 3. Dil Desteği
+
+* İngilizce (varsayılan)
+* Nederlands
+* Türkçe
+
+### 4. Üst Menü
+
+* Activities
+
+  * Workshops
+  * Courses
+  * Team Building
+* About
+
+  * Who is a Codiac?
+  * The Program
+  * About Us
+  * Contact
+
+### 5. Alt Menü
+
+* Privacy Policy
+* Refund Policy
+* Terms of Service
+* Contact Information
+
+### 6. Sayfa İçerikleri
+
+#### Workshops
+
+* Kısa süreli drone programlama dersleri.
+* Blockly ve Python giriş eğitimi.
+* Hedef: temel beceriler kazandırmak.
+
+#### Courses
+
+* 4–8 hafta arası programlar.
+* Temelden ileri seviyeye drone kodlama.
+* Sensörler, görevler, mini projeler.
+
+#### Team Building
+
+* Şirketlere özel drone etkinlikleri.
+* Yarışmalar, grup görevleri, problem çözme.
+
+#### Who is a Codiac?
+
+* Teknolojiye meraklı, yaratıcı, problem çözen birey.
+* Drone programlama ile bu becerilerin gelişimi.
+
+#### The Program
+
+* Öğretim modeli.
+* Yaş seviyeleri.
+* Beceriler:
+
+  * Problem solving
+  * Creativity
+  * Communication
+  * Collaboration
+  * Coding logic
+
+#### About Us
+
+* Misyon, vizyon, eğitim yaklaşımı.
+
+#### Contact
+
+* Adres: Westvest 28, 3111 BW, Schiedam
+* Telefon: +31 687900083
+* E-posta: [info@codiaclabs.nl](mailto:info@codiaclabs.nl)
+
+### 7. Ek Özellikler
+
+* Kurs/Workshop rezervasyon sistemi (WooCommerce veya Bookings).
+* Çok dilli yapı eklentisi (WPML / Polylang).
+* Hız optimizasyonu.
+* Ana sayfada drone gösterimi, eğitim modu açıklamaları, “Join the workshop!” butonu.
+
+**PROMPT BİTİYOR**
+
+---
+
+İstersen bu promptu daha da “machine-friendly” hale getiririm veya No-code builder (Trellis, Durflow, 10Web, WP AI Agent vb.) için optimize ederim.

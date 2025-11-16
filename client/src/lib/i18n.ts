@@ -1,0 +1,388 @@
+export type Language = 'en' | 'nl' | 'tr';
+
+export const translations = {
+  en: {
+    nav: {
+      activities: 'Activities',
+      workshops: 'Workshops',
+      courses: 'Courses',
+      teamBuilding: 'Team Building',
+      about: 'About',
+      whoIsACodiac: 'Who is a Codiac?',
+      theProgram: 'The Program',
+      aboutUs: 'About Us',
+      contact: 'Contact',
+    },
+    hero: {
+      title: 'Master the Future Through',
+      titleHighlight: 'Drone Programming',
+      subtitle: 'Transform learning into an adventure with hands-on drone coding experiences for students aged 10-18. Build problem-solving skills, creativity, and coding fundamentals.',
+      ctaPrimary: 'Join a Workshop',
+      ctaSecondary: 'Explore Courses',
+    },
+    workshops: {
+      title: 'Workshops',
+      subtitle: 'Short, intensive sessions designed to introduce students to drone programming fundamentals',
+      blockly: {
+        title: 'Blockly Basics',
+        duration: '2 hours',
+        description: 'Visual block-based programming introduction perfect for beginners',
+      },
+      python: {
+        title: 'Python Foundations',
+        duration: '3 hours',
+        description: 'Text-based coding with real programming language syntax',
+      },
+      advanced: {
+        title: 'Advanced Missions',
+        duration: '4 hours',
+        description: 'Complex challenges combining sensors, logic, and creativity',
+      },
+    },
+    courses: {
+      title: 'Courses',
+      subtitle: 'Comprehensive programs that take students from basics to advanced drone programming',
+      beginner: {
+        title: 'Beginner Course',
+        duration: '4 weeks',
+        description: 'Learn drone control, basic sensors, and fundamental coding concepts',
+      },
+      intermediate: {
+        title: 'Intermediate Course',
+        duration: '6 weeks',
+        description: 'Automation, complex movements, and problem-solving with code',
+      },
+      advanced: {
+        title: 'Advanced Projects',
+        duration: '8 weeks',
+        description: 'Create autonomous systems and complete real-world challenges',
+      },
+    },
+    teamBuilding: {
+      title: 'Team Building Activities',
+      subtitle: 'Engaging drone challenges designed for corporate teams and organizations',
+      description: 'Our team-building programs combine technology, problem-solving, and collaboration. Perfect for companies looking to strengthen team dynamics while learning cutting-edge skills.',
+      features: {
+        collaboration: 'Collaborative Challenges',
+        problemSolving: 'Problem Solving',
+        competition: 'Friendly Competition',
+        skills: 'Tech Skills Development',
+      },
+      cta: 'Book Team Event',
+    },
+    whoIsACodiac: {
+      title: 'Who is a Codiac?',
+      description: 'A Codiac is a creative problem-solver who harnesses technology to bring ideas to life. Through drone programming, students develop critical thinking, creativity, and the confidence to tackle complex challenges.',
+      traits: {
+        creative: 'Creative Thinker',
+        problemSolver: 'Problem Solver',
+        techSavvy: 'Technology Enthusiast',
+        collaborative: 'Team Player',
+      },
+    },
+    theProgram: {
+      title: 'The Program',
+      subtitle: 'Our structured approach to drone programming education',
+      description: 'We guide students through a progressive learning journey that builds confidence and competence.',
+      skills: {
+        problemSolving: 'Problem Solving',
+        creativity: 'Creativity',
+        communication: 'Communication',
+        collaboration: 'Collaboration',
+        coding: 'Coding Logic',
+      },
+    },
+    aboutUs: {
+      title: 'About Us',
+      mission: 'Our Mission',
+      missionText: 'To empower the next generation with the skills, creativity, and confidence to shape the future through technology and innovation.',
+      vision: 'Our Approach',
+      visionText: 'We believe learning should be hands-on, engaging, and fun. By combining drones with coding education, we create an environment where students naturally develop critical 21st-century skills.',
+    },
+    contact: {
+      title: 'Get In Touch',
+      subtitle: 'Ready to start your drone programming journey? Contact us today.',
+      form: {
+        name: 'Your Name',
+        email: 'Email Address',
+        phone: 'Phone Number',
+        message: 'Message',
+        submit: 'Send Message',
+      },
+      info: {
+        address: 'Westvest 28, 3111 BW, Schiedam',
+        phone: '+31 687900083',
+        email: 'info@codiaclabs.nl',
+      },
+    },
+    footer: {
+      description: 'Empowering students through drone programming education',
+      quickLinks: 'Quick Links',
+      legal: 'Legal',
+      privacyPolicy: 'Privacy Policy',
+      refundPolicy: 'Refund Policy',
+      termsOfService: 'Terms of Service',
+      rights: 'All rights reserved.',
+    },
+  },
+  nl: {
+    nav: {
+      activities: 'Activiteiten',
+      workshops: 'Workshops',
+      courses: 'Cursussen',
+      teamBuilding: 'Teambuilding',
+      about: 'Over',
+      whoIsACodiac: 'Wie is een Codiac?',
+      theProgram: 'Het Programma',
+      aboutUs: 'Over Ons',
+      contact: 'Contact',
+    },
+    hero: {
+      title: 'Beheers de Toekomst door',
+      titleHighlight: 'Drone Programmering',
+      subtitle: 'Transformeer leren in een avontuur met praktische drone-codeervaringen voor leerlingen van 10-18 jaar. Bouw probleemoplossende vaardigheden, creativiteit en programmeerprincipes.',
+      ctaPrimary: 'Doe mee aan Workshop',
+      ctaSecondary: 'Ontdek Cursussen',
+    },
+    workshops: {
+      title: 'Workshops',
+      subtitle: 'Korte, intensieve sessies ontworpen om studenten kennis te laten maken met drone programmering',
+      blockly: {
+        title: 'Blockly Basis',
+        duration: '2 uur',
+        description: 'Visuele blok-gebaseerde programmeerinleiding perfect voor beginners',
+      },
+      python: {
+        title: 'Python Fundamenten',
+        duration: '3 uur',
+        description: 'Tekstgebaseerd coderen met echte programmeertaal syntaxis',
+      },
+      advanced: {
+        title: 'Geavanceerde Missies',
+        duration: '4 uur',
+        description: 'Complexe uitdagingen die sensoren, logica en creativiteit combineren',
+      },
+    },
+    courses: {
+      title: 'Cursussen',
+      subtitle: 'Uitgebreide programma\'s die studenten van basis naar geavanceerd drone programmeren brengen',
+      beginner: {
+        title: 'Beginner Cursus',
+        duration: '4 weken',
+        description: 'Leer drone besturing, basis sensoren en fundamentele programmeerconcepten',
+      },
+      intermediate: {
+        title: 'Gevorderde Cursus',
+        duration: '6 weken',
+        description: 'Automatisering, complexe bewegingen en probleemoplossing met code',
+      },
+      advanced: {
+        title: 'Geavanceerde Projecten',
+        duration: '8 weken',
+        description: 'Creëer autonome systemen en voltooi real-world uitdagingen',
+      },
+    },
+    teamBuilding: {
+      title: 'Teambuilding Activiteiten',
+      subtitle: 'Boeiende drone uitdagingen ontworpen voor bedrijfsteams en organisaties',
+      description: 'Onze teambuildingprogramma\'s combineren technologie, probleemoplossing en samenwerking. Perfect voor bedrijven die teamdynamiek willen versterken terwijl ze geavanceerde vaardigheden leren.',
+      features: {
+        collaboration: 'Samenwerkingsuitdagingen',
+        problemSolving: 'Probleemoplossing',
+        competition: 'Vriendelijke Competitie',
+        skills: 'Tech Vaardigheden',
+      },
+      cta: 'Boek Team Event',
+    },
+    whoIsACodiac: {
+      title: 'Wie is een Codiac?',
+      description: 'Een Codiac is een creatieve probleemoplosser die technologie gebruikt om ideeën tot leven te brengen. Door drone programmering ontwikkelen studenten kritisch denken, creativiteit en het vertrouwen om complexe uitdagingen aan te pakken.',
+      traits: {
+        creative: 'Creatieve Denker',
+        problemSolver: 'Probleemoplosser',
+        techSavvy: 'Technologie Enthousiast',
+        collaborative: 'Teamspeler',
+      },
+    },
+    theProgram: {
+      title: 'Het Programma',
+      subtitle: 'Onze gestructureerde aanpak voor drone programmering onderwijs',
+      description: 'We begeleiden studenten door een progressieve leerreis die vertrouwen en competentie opbouwt.',
+      skills: {
+        problemSolving: 'Probleemoplossing',
+        creativity: 'Creativiteit',
+        communication: 'Communicatie',
+        collaboration: 'Samenwerking',
+        coding: 'Programmeerlogica',
+      },
+    },
+    aboutUs: {
+      title: 'Over Ons',
+      mission: 'Onze Missie',
+      missionText: 'De volgende generatie versterken met de vaardigheden, creativiteit en het vertrouwen om de toekomst te vormgeven door technologie en innovatie.',
+      vision: 'Onze Aanpak',
+      visionText: 'Wij geloven dat leren praktisch, boeiend en leuk moet zijn. Door drones te combineren met programmeeronderwijs, creëren we een omgeving waarin studenten natuurlijk kritieke 21e-eeuwse vaardigheden ontwikkelen.',
+    },
+    contact: {
+      title: 'Neem Contact Op',
+      subtitle: 'Klaar om je drone programmering reis te starten? Neem vandaag contact met ons op.',
+      form: {
+        name: 'Uw Naam',
+        email: 'E-mailadres',
+        phone: 'Telefoonnummer',
+        message: 'Bericht',
+        submit: 'Verzend Bericht',
+      },
+      info: {
+        address: 'Westvest 28, 3111 BW, Schiedam',
+        phone: '+31 687900083',
+        email: 'info@codiaclabs.nl',
+      },
+    },
+    footer: {
+      description: 'Studenten versterken door drone programmering onderwijs',
+      quickLinks: 'Snelle Links',
+      legal: 'Juridisch',
+      privacyPolicy: 'Privacybeleid',
+      refundPolicy: 'Retourbeleid',
+      termsOfService: 'Servicevoorwaarden',
+      rights: 'Alle rechten voorbehouden.',
+    },
+  },
+  tr: {
+    nav: {
+      activities: 'Aktiviteler',
+      workshops: 'Atölyeler',
+      courses: 'Kurslar',
+      teamBuilding: 'Takım Oluşturma',
+      about: 'Hakkında',
+      whoIsACodiac: 'Codiac Kimdir?',
+      theProgram: 'Program',
+      aboutUs: 'Hakkımızda',
+      contact: 'İletişim',
+    },
+    hero: {
+      title: 'Geleceği Şununla Yönetin',
+      titleHighlight: 'Drone Programlama',
+      subtitle: '10-18 yaş arası öğrenciler için uygulamalı drone kodlama deneyimleriyle öğrenmeyi bir maceraya dönüştürün. Problem çözme becerileri, yaratıcılık ve kodlama temellerini geliştirin.',
+      ctaPrimary: 'Atölyeye Katıl',
+      ctaSecondary: 'Kursları Keşfet',
+    },
+    workshops: {
+      title: 'Atölyeler',
+      subtitle: 'Öğrencileri drone programlama temellerine tanıtmak için tasarlanmış kısa, yoğun oturumlar',
+      blockly: {
+        title: 'Blockly Temelleri',
+        duration: '2 saat',
+        description: 'Yeni başlayanlar için mükemmel görsel blok tabanlı programlama',
+      },
+      python: {
+        title: 'Python Temelleri',
+        duration: '3 saat',
+        description: 'Gerçek programlama dili sözdizimi ile metin tabanlı kodlama',
+      },
+      advanced: {
+        title: 'İleri Görevler',
+        duration: '4 saat',
+        description: 'Sensörleri, mantığı ve yaratıcılığı birleştiren karmaşık zorluklar',
+      },
+    },
+    courses: {
+      title: 'Kurslar',
+      subtitle: 'Öğrencileri temelden ileri drone programlamaya taşıyan kapsamlı programlar',
+      beginner: {
+        title: 'Başlangıç Kursu',
+        duration: '4 hafta',
+        description: 'Drone kontrolü, temel sensörler ve temel kodlama kavramlarını öğrenin',
+      },
+      intermediate: {
+        title: 'Orta Seviye Kurs',
+        duration: '6 hafta',
+        description: 'Otomasyon, karmaşık hareketler ve kod ile problem çözme',
+      },
+      advanced: {
+        title: 'İleri Projeler',
+        duration: '8 hafta',
+        description: 'Otonom sistemler oluşturun ve gerçek dünya zorluklarını tamamlayın',
+      },
+    },
+    teamBuilding: {
+      title: 'Takım Oluşturma Aktiviteleri',
+      subtitle: 'Kurumsal ekipler ve organizasyonlar için tasarlanmış ilgi çekici drone zorlukları',
+      description: 'Takım oluşturma programlarımız teknolojiyi, problem çözmeyi ve işbirliğini birleştirir. En son becerileri öğrenirken ekip dinamiklerini güçlendirmek isteyen şirketler için mükemmel.',
+      features: {
+        collaboration: 'İşbirlikçi Zorluklar',
+        problemSolving: 'Problem Çözme',
+        competition: 'Dostane Rekabet',
+        skills: 'Teknoloji Becerileri',
+      },
+      cta: 'Takım Etkinliği Ayarla',
+    },
+    whoIsACodiac: {
+      title: 'Codiac Kimdir?',
+      description: 'Codiac, fikirleri hayata geçirmek için teknolojiyi kullanan yaratıcı bir problem çözücüdür. Drone programlama yoluyla öğrenciler eleştirel düşünme, yaratıcılık ve karmaşık zorluklarla başa çıkma güvenini geliştirir.',
+      traits: {
+        creative: 'Yaratıcı Düşünür',
+        problemSolver: 'Problem Çözücü',
+        techSavvy: 'Teknoloji Meraklısı',
+        collaborative: 'Takım Oyuncusu',
+      },
+    },
+    theProgram: {
+      title: 'Program',
+      subtitle: 'Drone programlama eğitimine yapılandırılmış yaklaşımımız',
+      description: 'Öğrencileri güven ve yetkinlik oluşturan ilerici bir öğrenme yolculuğunda yönlendiriyoruz.',
+      skills: {
+        problemSolving: 'Problem Çözme',
+        creativity: 'Yaratıcılık',
+        communication: 'İletişim',
+        collaboration: 'İşbirliği',
+        coding: 'Kodlama Mantığı',
+      },
+    },
+    aboutUs: {
+      title: 'Hakkımızda',
+      mission: 'Misyonumuz',
+      missionText: 'Gelecek nesli teknoloji ve yenilikle geleceği şekillendirme becerileri, yaratıcılık ve güvenle güçlendirmek.',
+      vision: 'Yaklaşımımız',
+      visionText: 'Öğrenmenin uygulamalı, ilgi çekici ve eğlenceli olması gerektiğine inanıyoruz. Drone\'ları kodlama eğitimiyle birleştirerek, öğrencilerin doğal olarak kritik 21. yüzyıl becerilerini geliştirdiği bir ortam yaratıyoruz.',
+    },
+    contact: {
+      title: 'İletişime Geçin',
+      subtitle: 'Drone programlama yolculuğunuza başlamaya hazır mısınız? Bugün bizimle iletişime geçin.',
+      form: {
+        name: 'Adınız',
+        email: 'E-posta Adresi',
+        phone: 'Telefon Numarası',
+        message: 'Mesaj',
+        submit: 'Mesaj Gönder',
+      },
+      info: {
+        address: 'Westvest 28, 3111 BW, Schiedam',
+        phone: '+31 687900083',
+        email: 'info@codiaclabs.nl',
+      },
+    },
+    footer: {
+      description: 'Drone programlama eğitimi yoluyla öğrencileri güçlendirme',
+      quickLinks: 'Hızlı Bağlantılar',
+      legal: 'Yasal',
+      privacyPolicy: 'Gizlilik Politikası',
+      refundPolicy: 'İade Politikası',
+      termsOfService: 'Hizmet Şartları',
+      rights: 'Tüm hakları saklıdır.',
+    },
+  },
+};
+
+export const languageNames = {
+  en: 'English',
+  nl: 'Nederlands',
+  tr: 'Türkçe',
+};
+
+export const languageFlags = {
+  en: '🇬🇧',
+  nl: '🇳🇱',
+  tr: '🇹🇷',
+};
